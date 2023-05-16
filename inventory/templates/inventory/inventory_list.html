@@ -1,0 +1,19 @@
+<h1>Inventory List</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Supplier Name</th>
+            <th>Availability</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for inventory in inventories %}
+        <tr>
+            <td>{{ inventory.name }}</td>
+            <td>{{ inventory.supplier_name }}</td>
+            <td>{{ inventory.availability }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

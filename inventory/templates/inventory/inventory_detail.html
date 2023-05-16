@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Detail</title>
+</head>
+<body>
+    <h1>Inventory Detail</h1>
+    <h2>{{ inventory.name }}</h2>
+    <p><strong>Description:</strong> {{ inventory.description }}</p>
+    <p><strong>Note:</strong> {{ inventory.note }}</p>
+    <p><strong>Stock:</strong> {{ inventory.stock }}</p>
+    <p><strong>Supplier:</strong> {{ inventory.supplier.name }}</p>
+    <img src="{% static 'inventory/apple.jpg' %}" alt="Thumbnail">
+    <!-- Add more fields as necessary -->
+</body>
+</html>
