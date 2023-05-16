@@ -8,19 +8,29 @@ Install Python and Django (preferably with Python Virtual Environment)
 
 
 List
+
 ![list](list.jpg)
 
+
 /inventory/{id}  View
+
+
 ![id](id.jpg)
 
 /api/inventory/{id}  API
+
+
 ![api](api.jpg)
 
 
 Admin
+
+
 ![admin](admin.jpg)
 
 Superuser
+
+
 ![superuser](superuser.jpg)
 
 
